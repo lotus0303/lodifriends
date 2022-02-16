@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1360">
+		<title>LODIFRIENDS</title>
+		<link href="css/style.css" rel="stylesheet" type="text/css">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/main/icon/favicon.png">
+    <!--<link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css' rel='stylesheet' type='text/css'>-->
+    <script src="js/jquery-1.12.4.min.js"></script>
+		<script src="js/script.js"></script>
+    <!--gallery-->
+		<link rel="stylesheet" type="text/css" href="js/slick.css">
+  	<link rel="stylesheet" type="text/css" href="js/slick-theme_.css">
+		<link rel="stylesheet" type="text/css" href="css/gallery_style.css">
+        <!-- Link Swiper's CSS -->
+        <link
+        rel="stylesheet"
+        href="css/swiper-bundle.min.css"
+      />
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+      <!--js-->
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>	
+      <script src="js/jquery-1.12.3.js"></script>
+      <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+      <script src="js/scriptaos.js"></script>
+	</head>
+	<body>
+    <div id="banner_wrap"><!--banner_wrap_S-->
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <a href="index.html#banner_wrap"><img src="images/main/banner/banner01.png" alt="배너01"></a>
+        </div>
+        <div class="swiper-slide">
+          <a href="index.html#banner_wrap"><img src="images/main/banner/banner02.png" alt="배너02"></a>
+        </div>
+        <div class="swiper-slide">
+          <a href="index.html#banner_wrap"><img src="images/main/banner/banner03.png" alt="배너03"></a>
+        </div>
+        <div class="swiper-slide">
+          <a href="index.html#banner_wrap"><img src="images/main/banner/banner04.png" alt="배너04"></a>
+        </div>
+      </div>
+      <div class="swiper-button-next">
+        <img src="images/main/icon/right01_icon.png" alt="오른쪽 화살표">
+      </div>
+      <div class="swiper-button-prev">
+        <img src="images/main/icon/left01_icon.png" alt="왼쪽 화살표">
+      </div>
+    </div>
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        effect: "fade",
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        autoplay: true, /* 자동으로 다음이미지 보여주기 */         
+        autoplaySpeed:1000,/* 다음이미지로 넘어갈 시간 */         
+        speed:1000 , /* 다음이미지로 넘겨질때 걸리는 시간 */             
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
+		<div id="header">
+			<div class="main_logo">
+				<a href="index.html"><img src="images/main/banner/mainlogo01.png" alt="로디프렌즈 로고"></a>
+			</div>
+      <div id="gnb_wrap">
+        <ul class="gnb">
+          <li><a href="index.html#banner_wrap">ABOUT</a></li>
+          <li><a href="index.html#banner_wrap">PRODUCT</a></li>
+          <li><a href="index.html#banner_wrap">ALBUM</a></li>
+          <li><a href="index.html#banner_wrap">SNS</a></li>
+        </ul>
+        <ul class="util">
+          <li class="hide"><a href="#"><img src="images/main/icon/search.png" alt="검색아이콘"></a></li>
+          <li><a href="index.html#banner_wrap"><img src="images/main/icon/login.png" alt="로그인아이콘"></a></li>
+          <li><a href="index.html#banner_wrap"><img src="images/main/icon/basket.png" alt="장바구니아이콘"></a></li>
+          <li><a href="index.html#banner_wrap"><img src="images/main/icon/help.png" alt="고객센터아이콘"></a></li>
+        </ul>
+      </div>
+		</div>
+    <div id="header2">
+      <div id="gnb2_wrap">
+        <ul class="gnb2">
+          <li><a href="index.html#banner_wrap">ABOUT</a></li>
+          <li><a href="index.html#banner_wrap">PRODUCT</a></li>
+          <li><a href="index.html#banner_wrap">ALBUM</a></li>
+          <li><a href="index.html#banner_wrap">SNS</a></li>
+        </ul>
+        <ul class="util2">
+          <li class="show"><a href="index.html#banner_wrap"><img src="images/main/icon/search.png" alt="검색아이콘"></a></li>
+          <li><a href="index.html#banner_wrap">
+          <form class="search">
+            <input>
+          </form>
+          </a></li>
+        </ul>
+      </div>
+    </div>
+  </div><!--banner_wrap_E-->
+  <div id="section1_wrap"><!--section1_wrap_S-->
+    <p class="title">캐릭터 신상품</p>
+    <ul id="board"><!--board_S-->
+      <li class="on">
+        <p class="s1_name"><a href="index.html#section1_wrap javascript:return false;">CIRON</a></p>
+        <div class="ciron_item_wrap">
+          <ul class="item">
+            <li>
+              <a href="index.html#section1_wrapjavascript:return false;">
+              <img src="images/main/contents1/ciron01.png" alt="시론사진">
+              </a></li>
+            <li>
+              <a href="index.html#section1_wrapjavascript:return false;">
+                <div class="s1_photo">
+                  <img src="images/main/contents1/ciron_weeklyplaner.png" alt="시론다이어리">
+                  <div class="item_hover1">
+                    <div class="i_left"><img src="images/main/icon/heart_icon.png" alt="좋아요아이콘"></div>
+                    <div class="i_right"><img src="images/main/icon/plus_icon.png" alt="플러스아이콘"></div>
+                    <div class="i_left2"><img src="images/main/icon/heart_hover.png" alt="좋아요아이콘2"></div>
+                    <div class="i_right2"><img src="images/main/icon/plus_icon_hover.png" alt="플러스아이콘2"></div>
+                  </div>
+                </div>
+              <p class="price">12,000원</p>
+              <p class="product_name">CIRON) 유자처럼 자유로운 Weekly Planer</p>
+              </a>
+            </li>
+            <li><a href="index.html#section1_wrapjavascript:return false;">
+              <div class="s1_photo">
+                <img src="images/main/contents1/ciron_ipadcase.png" alt="시론아이패드케이스">
+                <div class="item_hover1">
+                  <div class="i_left"><img src="images/main/icon/heart_icon.png" alt="좋아요아이콘"></div>
+                  <div class="i_right"><img src="images/main/icon/plus_icon.png" alt="플러스아이콘"></div>
+                  <div class="i_left2"><img src="images/main/icon/heart_hover.png" alt="좋아요아이콘2"></div>
+                  <div class="i_right2"><img src="images/main/icon/plus_icon_hover.png" alt="플러스아이콘2"></div>
+                </div>
+              </div>
+              <p class="price">24,000원</p>
+              <p class="product_name">CIRON) 하늘에서 유자가 iPad case</p>
+            </a></li>
+            <li><a href="index.html#section1_wrapjavascript:return false;">
+              <div class="s1_photo">
+                <img src="images/main/contents1/ciron_coaster.png" alt="시론컵받침">
+                <div class="item_hover1">
+                  <div class="i_left"><img src="images/main/icon/heart_icon.png" alt="좋아요아이콘"></div>
+                  <div class="i_right"><img src="images/main/icon/plus_icon.png" alt="플러스아이콘"></div>
+                  <div class="i_left2"><img src="images/main/icon/heart_hover.png" alt="좋아요아이콘2"></div>
+                  <div class="i_right2"><img src="images/main/icon/plus_icon_hover.png" alt="플러스아이콘2"></div>
+                </div>
+              </div>
+              <p class="price">3,000원</p>
+              <p class="product_name">CIRON) 시론이는 집순이야 Coaster</p>
+            </a></li>
+          </ul>
+        </div>
+      </li>
+      <li>
+        <p class="s1_name"><a href="index.html#section1_wrapjavascript:return false;">PERI</a></p>
+          <div class="peri_item_wrap">
+            <ul class="item">
+              <li><a href="index.html#section1_wrapjavascript:return false;"><img src="images/main/contents1/peri01.png" alt="페리사진"></a></li>
+              <li><a href="index.html#section1_wrapjavascript:return false;">
+                <div class="s1_photo">
+                  <img src="images/main/contents1/peri_weeklypaner.png" alt="페리다이어리">
+                  <div class="item_hover1">
+                    <div class="i_left"><img src="images/main/icon/heart_icon.png" alt="좋아요아이콘"></div>
+                    <div class="i_right"><img src="images/main/icon/plus_icon.png" alt="플러스아이콘"></div>
+                    <div class="i_left2"><img src="images/main/icon/heart_hover.png" alt="좋아요아이콘2"></div>
+                    <div class="i_right2"><img src="images/main/icon/plus_icon_hover.png" alt="플러스아이콘2"></div>
+                  </div>
+                </div>
+                <p class="price">12,000원</p>
+                <p class="product_name">PERI) 블루베리처럼 베리굿 Weekly Planer</p>
+              </a></li>
+              <li><a href="index.html#section1_wrapjavascript:return false;">
+                <div class="s1_photo">
+                  <img src="images/main/contents1/peri_ipadcase.png" alt="페리아이패드케이스">
+                  <div class="item_hover1">
+                    <div class="i_left"><img src="images/main/icon/heart_icon.png" alt="좋아요아이콘"></div>
+                    <div class="i_right"><img src="images/main/icon/plus_icon.png" alt="플러스아이콘"></div>
+                    <div class="i_left2"><img src="images/main/icon/heart_hover.png" alt="좋아요아이콘2"></div>
+                    <div class="i_right2"><img src="images/main/icon/plus_icon_hover.png" alt="플러스아이콘2"></div>
+                  </div>
+                </div>
+                <p class="price">24,000원</p>
+                <p class="product_name">PERI) 하늘에서 블루베리가 iPad case</p>
+              </a></li>
+              <li><a href="index.html#section1_wrapjavascript:return false;">
+                <div class="s1_photo">
+                  <img src="images/main/contents1/peri_phonecase.png" alt="페리휴대폰케이스">
+                  <div class="item_hover1">
+                    <div class="i_left"><img src="images/main/icon/heart_icon.png" alt="좋아요아이콘"></div>
+                    <div class="i_right"><img src="images/main/icon/plus_icon.png" alt="플러스아이콘"></div>
+                    <div class="i_left2"><img src="images/main/icon/heart_hover.png" alt="좋아요아이콘2"></div>
+                    <div class="i_right2"><img src="images/main/icon/plus_icon_hover.png" alt="플러스아이콘2"></div>
+                  </div>
+                </div>
+                <p class="price">9,000원</p>
+                <p class="product_name">PERI) 치명적인 페리 옆태 Phone Case</p>
+              </a></li>
+            </ul>
+          </div>
+      </li>
+      <li>
+        <p class="s1_name"><a href="index.html#section1_wrapjavascript:return false;">JUDA</a></p>
+        <div class="juda_item_wrap">
+          <ul class="item">
+            <li><a href="index.html#section1_wrapjavascript:return false;"><img src="images/main/contents1/juda01.png" alt="쥬다사진"></a></li>
+            <li><a href="index.html#section1_wrapjavascript:return false;">
+              <div class="s1_photo">
+                <img src="images/main/contents1/juda_weeklyplaner.png" alt="쥬다다이어리">
+                <div class="item_hover1">
+                  <div class="i_left"><img src="images/main/icon/heart_icon.png" alt="좋아요아이콘"></div>
+                  <div class="i_right"><img src="images/main/icon/plus_icon.png" alt="플러스아이콘"></div>
+                  <div class="i_left2"><img src="images/main/icon/heart_hover.png" alt="좋아요아이콘2"></div>
+                  <div class="i_right2"><img src="images/main/icon/plus_icon_hover.png" alt="플러스아이콘2"></div>
+                </div>
+              </div>
+              <p class="price">12,000원</p>
+              <p class="product_name">JUDA) 자두처럼 잘 두자 Weekly Planer</p>
+            </a></li>
+            <li><a href="index.html#section1_wrapjavascript:return false;">
+              <div class="s1_photo">
+                <img src="images/main/contents1/juda_ipadcase.png" alt="쥬다아이패드케이스">
+                <div class="item_hover1">
+                  <div class="i_left"><img src="images/main/icon/heart_icon.png" alt="좋아요아이콘"></div>
+                  <div class="i_right"><img src="images/main/icon/plus_icon.png" alt="플러스아이콘"></div>
+                  <div class="i_left2"><img src="images/main/icon/heart_hover.png" alt="좋아요아이콘2"></div>
+                  <div class="i_right2"><img src="images/main/icon/plus_icon_hover.png" alt="플러스아이콘2"></div>
+                </div>
+              </div>
+              <p class="price">24,000원</p>
+              <p class="product_name">JUDA) 하늘에서 자두가 iPad case</p>
+            </a></li>
+            <li><a href="index.html#section1_wrapjavascript:return false;">
+              <div class="s1_photo">
+                <img src="images/main/contents1/juda_phonecase.png" alt="쥬다휴대폰케이스">
+                <div class="item_hover1">
+                  <div class="i_left"><img src="images/main/icon/heart_icon.png" alt="좋아요아이콘"></div>
+                  <div class="i_right"><img src="images/main/icon/plus_icon.png" alt="플러스아이콘"></div>
+                  <div class="i_left2"><img src="images/main/icon/heart_hover.png" alt="좋아요아이콘2"></div>
+                  <div class="i_right2"><img src="images/main/icon/plus_icon_hover.png" alt="플러스아이콘2"></div>
+                </div>
+              </div>
+              <p class="price">9,000원</p>
+              <p class="product_name">JUDA) 치명적인 쥬다 옆태 Phone Case</p>
+            </a></li>
+          </ul>
+        </div>
+      </li>
+    </ul><!--board_E-->
+  </div><!--section1_wrap_E-->
+  <div id="section2_wrap"><!--section2_wrap_S-->
+    <p class="title">주간 인기상품</p>
+
+    <section class="regular slider">
+			<div>
+				<a href="index.html#section2_wrap">
+          <img src="images/main/contents2/summer_poster.png" alt="썸머패키지 포스터">
+          <p class="price">8,000원</p>
+          <p class="product_name">[단품]_LODI)썸머패키지 포스터</p>
+          <div class="score">4.8</div>
+        </a>
+			</div>
+			<div>
+				<a href="index.html#section2_wrap">
+          <img src="images/main/contents2/selfish_poster.png" alt="앨범 포스터">
+          <p class="price">8,000원</p>
+          <p class="product_name">[단품]_LODI)SELFISH PINK 포스터</p>
+          <div class="score">5.0</div>
+        </a>
+			</div>
+			<div>
+        <a href="index.html#section2_wrap">
+          <img src="images/main/contents2/summer_mug.png" alt="썸머패키지 머그잔">
+          <p class="price">15,000원</p>
+          <p class="product_name">[단품]_LODI)썸머패키지 머그잔</p>
+          <div class="score">4.8</div>
+        </a>
+			</div>
+			<div>
+				<a href="index.html#section2_wrap">
+          <img src="images/main/contents2/selfish_photocard.png" alt="앨범 포토카드">
+          <p class="price">11,000원</p>
+          <p class="product_name">[단품]_LODI)SELFISH PINK 포토카드</p>
+          <div class="score">4.9</div>
+        </a>
+			</div>
+			<div>
+        <a href="index.html#section2_wrap">
+          <img src="images/main/contents2/summer_coaster.png" alt="썸머패키지 컵받침대">
+          <p class="price">4,000원</p>
+          <p class="product_name">[단품]_LODI)썸머패키지 컵받침대</p>
+          <div class="score">4.7</div>
+        </a>
+			</div>
+      <div>
+        <a href="index.html#section2_wrap">
+          <img src="images/main/contents2/selfish_photobook.png" alt="앨범 포토북">
+          <p class="price">15,000원</p>
+          <p class="product_name">[단품]_LODI)SELFISH PINK 포토북</p>
+          <div class="score">4.9</div>
+        </a>
+			</div>
+      <div>
+        <a href="index.html#section2_wrap">
+          <img src="images/main/contents2/summer_package.png" alt="썸머패키지 세트">
+          <p class="price">32,000원</p>
+          <p class="product_name">[단품]_LODI)썸머패키지 세트</p>
+          <div class="score">5.0</div>
+        </a>
+			</div>
+      <div>
+        <a href="index.html#section2_wrap">
+          <img src="images/main/contents2/selfish_package.png" alt="앨범 세트">
+          <p class="price">18,000원</p>
+          <p class="product_name">[단품]_LODI)SELFISH PINK 앨범 세트</p>
+          <div class="score">5.0</div>
+        </a>
+			</div>
+		</section>
+
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script src="js/slick.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript">
+      $(document).on('ready', function() {
+    $(".regular").slick({infinite: true , /* 맨끝이미지에서 끝나지 않고 다시 맨앞으로 이동 */         
+    slidesToShow: 4, /* 화면에 보여질 이미지 갯수*/        
+    slidesToScroll: 1,  /* 스크롤시 이동할 이미지 갯수 */         
+    autoplay: true, /* 자동으로 다음이미지 보여주기 */         
+    arrows: true, /* 화살표 */         
+    dots:true, /* 아래점 */         
+    autoplaySpeed:1000,/* 다음이미지로 넘어갈 시간 */         
+    speed:1000 , /* 다음이미지로 넘겨질때 걸리는 시간 */         
+    pauseOnHover:true, /* 마우스 호버시 슬라이드 이동 멈춤 */        
+    //vertical:true,/* 세로방향으로 슬라이드를 원하면 추가하기// 기본값 가로방향 슬라이드*/        
+           });
+  
+      });
+  </script>
+
+
+  </div><!--section2_wrap_E-->
+  <div id="section3_wrap"><!--section3_wrap_S-->
+    <p class="title2">썸머패키지 예약</p>
+    <p class="summer_explain">다가오는 무더위에도 귀여움과 트렌드는 놓칠 수 없지!
+      <br>레트로 퓨처리즘 색감으로 시원하고 감각적이게!!</p>
+    <div class="video_box"></div>
+    <div class="button1"><a href="index.html#section3_wrap">SEE MORE</a></div>
+  </div><!--section3_wrap_E-->
+  <div id="section4_wrap"><!--section4_wrap_S-->
+  <div class="section4">
+    <p class="title4">로디 첫번째 앨범 발매</p>
+    <div class="section4_left">
+     <p class="explain">
+      뭄바톤 트랩 장르로,
+      <br>로디만의 영(Young)한 에너지 속 은근한 섹시함이 돋보이는 곡
+      <br>사랑스러운 로디의 반전, 로디만의 이기적인 매력을 느껴 볼 시간이야.
+     </p> 
+     <div class="button2"><a href="index.html#section4_wrap">SEE MORE</a></div>
+    </div>
+    <div class="section4_right">
+        <img src="images/main/contents4/album.png" alt="앨범사진">
+      <div class="album_hover_wrap">
+        <div class="album_hover_box">
+          <p class="album_t1">LODI Frist Mini Album <br><span class="album_title">SELFISH PINK</span></p>
+        <ul class="album_hover">
+          <li><a href="index.html#section4_wrap">
+            <p class="album_t2"><img src="images/main/icon/melon.png" alt="멜론 아이콘"><span class="padding">MELON</span></p>
+          </a></li>
+          <li><a href="index.html#section4_wrap">
+            <p class="album_t2"><img src="images/main/icon/gini.png" alt="지니 아이콘"><span class="padding">GINI</span></p>
+          </a></li>
+          <li><a href="index.html#section4_wrap">
+            <p class="album_t2"><img src="images/main/icon/vibe.png" alt="바이브 아이콘"><span class="padding">VIBE</span></p>
+          </a></li>
+          <li><a href="index.html#section4_wrap">
+            <p class="album_t2"><img src="images/main/icon/flo.png" alt="플로 아이콘"><span class="padding">FLO</span></p>
+          </a></li>
+          <li><a href="index.html#section4_wrap">
+            <p class="album_t2"><img src="images/main/icon/spotify.png" alt="스토피파이 아이콘"><span class="padding">STOPIFY</span></p>
+          </a></li>
+        </ul>
+      </div>
+      </div>
+    </div>
+  </div>
+  </div><!--section4_wrap_E-->
+  <div id="cupon_banner_wrap"><!--cupon_banner_wrap_S-->
+    <div class="cupon_banner">
+      <div class="cupon">
+        <p class="cupon_text">LODI FRIDENS</p>
+        <p class="cupon_price">10,000<span class="small_text">원</span></p>
+        <img src="images/main/icon/download_icon.png" alt="다운로드 아이콘">
+       </div></a>
+    </div>
+  </div><!--cupon_banner_wrap_E-->
+  <div id="section5_wrap"><!--section5_wrap_S-->
+    <p class="title">로디의 일상</p>
+    <div class="section5">
+       <div class="swiper-container">
+        <div class="swiper-wrapper" style="max-width:100%;">
+          <div class="swiper-slide"><a href="index.html#section5_wrap"><img src="images/main/contents5/life_01.png" alt="일러스트1"></a></div>
+          <div class="swiper-slide"><a href="index.html#section5_wrap"><img src="images/main/contents5/life_02.png" alt="일러스트2"></a></div>
+          <div class="swiper-slide"><a href="index.html#section5_wrap"><img src="images/main/contents5/life_03.png" alt="일러스트3"></a></div>
+          <div class="swiper-slide"><a href="index.html#section5_wrap"><img src="images/main/contents5/life_04.png" alt="일러스트4"></a></div>
+        </div>
+         <!-- 블릿 버튼 -->
+         <div class="swiper-pagination"></div>
+        <script>
+          var swiper = new Swiper('.swiper-container', {
+           autoplay: {
+           delay: 2500,//슬라이드 넘어가는 시간
+           disableOnInteraction: false,
+           },
+           loop: true,//슬라이드 무한반복
+           navigation: {//화살표 버튼
+           nextEl: '.swiper-button-next',
+           prevEl: '.swiper-button-prev',
+           },
+           pagination: {//블릿 버튼
+           el: '.swiper-pagination',
+           clickable: true,
+           },
+         });
+         </script>
+      </div>
+      <div class="section5_right">
+        <h1><img src="images/main/contents5/comment00.png" alt="댓글창"></h1>
+        <div class="comment_img">
+          <img src="images/main/contents5/comment.png" alt="댓글창 내용">
+        </div>
+        <div class="comment_emoticon">
+          <img src="images/main/contents5/comment09.png" alt="댓글 이모티콘">
+        </div>
+        <form class="comment">
+          <p><input type="text" placeholder="비회원으로 댓글달기"></p>
+        </form>
+      </div>
+    </div>
+    </div><!--section5_wrap_E-->
+  <div id="footer_wrap"><!--footer_wrap_S-->
+    <div class="footer">
+      <ul class="footer_gnb">
+        <li><a href="index.html#footer_wrap">제휴제안</a></li>
+        <li><a href="index.html#footer_wrap">온라인 스토어</a></li>
+        <li><a href="index.html#footer_wrap">개인정보</a></li>
+      </ul>
+      <p class="footer_text">주)로디프렌드 | 대표이사: 김하은 | 개인정보관리책임자: 김하은
+        <br>부산광역시 김하은집 98, 3층 로디프렌즈 | 사업자등록번호: 123-45-67890 | 통신판매: 2022-부산-3333
+        <br><br>Copyright © LODI Friends All Rights Reserved
+      </p>
+      <ul class="footer_icon">
+        <li><a href="index.html#footer_wrap">
+          <img src="images/main/icon/insta02.png" alt="인스타그램 아이콘">
+        </a></li>
+        <li><a href="index.html#footer_wrap">
+          <img src="images/main/icon/facebook02.png" alt="페이스북 아이콘">
+        </a></li>
+        <li><a href="index.html#footer_wrap">
+          <img src="images/main/icon/youtube02.png" alt="유튜브 아이콘">
+        </a></li>
+        <li><a href="index.html#footer_wrap">
+          <img src="images/main/icon/twiter02.png" alt="트위터 아이콘">
+        </a></li>
+      </ul>
+    </div>
+  </div><!--footer_wrap_E-->
+  <div class="btn">
+    <p class="top"><a href="index.html#banner_wrap"><img src="images/main/icon/top_button.png" alt="탑버튼"></a></p>
+</div>
+</body>
+</html>
+
+
+
+ 

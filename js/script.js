@@ -1,0 +1,38 @@
+
+$(function(){
+    $("#board li .s1_name").click(function(){
+        $(this).parent().addClass("on").siblings().removeClass("on");
+    });      
+});
+$(function(){
+  $(".hide").click(function(){
+    $("#gnb_wrap").hide()
+  });
+  $(".hide").click(function(){
+    $("#header2").show()
+  });
+});
+$(function(){
+  $(".show").click(function(){
+    $("#header2").hide()
+  });
+  $(".show").click(function(){
+    $("#gnb_wrap").show()
+  });
+});
+$(function(){
+  $(".i_left2").click(function(){
+    $(".i_left2").hide()
+  });
+  $(".i_left").click(function(){
+    $(".i_left2").show()
+  });
+});
+$(function(){
+  $(".i_right2").click(function(){
+    $(".i_right2").hide()
+  });
+  $(".i_right").click(function(){
+    $(".i_right2").show()
+  });
+});
