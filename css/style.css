@@ -23,12 +23,10 @@ body{
 	width: 100%;
 }
 .swiper-button-next{
-	padding-top: 340px;
-	padding-right: 330px;
+	padding-right: 130px;
 }
 .swiper-button-prev{
-	padding-top: 340px;
-	padding-left: 330px;
+	padding-left: 130px;
 }
 /*banner*/
 #banner_wrap{
